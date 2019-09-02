@@ -31,6 +31,14 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/work`,
+        name: `work-pages`,
+      },
+    },
+    'gatsby-transformer-remark',
+    {
       resolve: 'gatsby-plugin-react-svg',
       options: {
         rule: {

@@ -42,6 +42,7 @@
     "gatsby-plugin-typescript": "2.0.10",
     "gatsby-plugin-ueno": "2.0.1",
     "gatsby-source-filesystem": "^2.1.19",
+    "gatsby-transformer-remark": "^2.6.21",
     "gatsby-transformer-sharp": "2.2.13",
     "gsap": "2.1.2",
     "gsap-tools": "1.0.9",
