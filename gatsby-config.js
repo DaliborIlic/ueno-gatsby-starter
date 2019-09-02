@@ -10,6 +10,7 @@ module.exports = {
     'gatsby-plugin-typescript',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    'gatsby-plugin-netlify-cms',    
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -20,6 +21,13 @@ module.exports = {
         theme_color: '#663399',
         display: 'minimal-ui',
         icon: 'src/assets/images/favicon.png',
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `work-pages`,
+        path: `${__dirname}/work`,
       },
     },
     {
