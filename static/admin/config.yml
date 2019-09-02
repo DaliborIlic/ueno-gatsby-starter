@@ -1,0 +1,16 @@
+backend:
+  name: github
+  repo: DaliborIlic/ueno-gatsby-starter
+media_folder: static/assets
+public_folder: assets
+collections:
+  - name: work
+    label: Work
+    folder: work
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: featuredImage, label: Featured Image, widget: image }      
+      - { name: body, label: Body, widget: markdown }

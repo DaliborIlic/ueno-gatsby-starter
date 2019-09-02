@@ -34,6 +34,7 @@
     "gatsby-plugin-config": "1.0.7",
     "gatsby-plugin-layout": "1.0.12",
     "gatsby-plugin-manifest": "2.0.22",
+    "gatsby-plugin-netlify-cms": "^4.1.13",
     "gatsby-plugin-react-helmet": "3.0.8",
     "gatsby-plugin-react-svg": "2.1.0",
     "gatsby-plugin-sharp": "2.0.25",
@@ -43,6 +44,7 @@
     "gsap": "2.1.2",
     "gsap-tools": "1.0.9",
     "lodash": "4.17.11",
+    "netlify-cms-app": "^2.9.7",
     "react": "16.8.4",
     "react-dom": "16.8.4",
     "react-helmet": "5.2.0"
