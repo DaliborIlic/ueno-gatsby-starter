@@ -6,7 +6,7 @@ public_folder: assets
 collections:
   - name: work
     label: Work
-    folder: /src/work
+    folder: work
     create: true
     fields:
       - { name: path, label: Path }
