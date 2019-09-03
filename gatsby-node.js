@@ -8,7 +8,7 @@ exports.onCreateNode = ({ node }) => {
 const path = require(`path`)
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
-  const workPostTemplate = path.resolve(`src/templates/workTemplate.js`)
+  const workPostTemplate = path.resolve(`src/templates/workTemplate.tsx`)
   const result = await graphql(`
     {
       allMarkdownRemark(
