@@ -31,7 +31,7 @@
   "dependencies": {
     "core-js": "^3.2.1",
     "gatsby": "^2.15.2",
-    "gatsby-image": "2.0.31",
+    "gatsby-image": "^2.0.31",
     "gatsby-plugin-config": "1.0.7",
     "gatsby-plugin-layout": "1.0.12",
     "gatsby-plugin-manifest": "^2.2.13",
