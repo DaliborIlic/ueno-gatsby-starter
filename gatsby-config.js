@@ -25,16 +25,16 @@ module.exports = {
     },
     {
       resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `work-pages`,
-        path: `${__dirname}/work`,
-      },
-    },
+        options: {
+          path: `${__dirname}/static/assets`,
+          name: 'images',
+        },
+    },    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/work`,
         name: `work-pages`,
+        path: `${__dirname}/work`,
       },
     },
     'gatsby-transformer-remark',
@@ -52,5 +52,19 @@ module.exports = {
         component: require.resolve('./src/components/app-layout/AppLayout.tsx'),
       },
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          'gatsby-remark-relative-images',
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1200,
+            },
+          },
+        ],
+      },
+    },    
   ],
 }
