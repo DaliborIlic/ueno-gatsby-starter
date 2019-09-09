@@ -10,7 +10,7 @@ module.exports = {
     'gatsby-plugin-typescript',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    'gatsby-plugin-netlify-cms',    
+    'gatsby-plugin-netlify-cms', 
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -46,12 +46,14 @@ module.exports = {
         },
       },
     },
+    /*
     {
       resolve: 'gatsby-plugin-layout',
       options: {
         component: require.resolve('./src/components/app-layout/AppLayout.tsx'),
       },
     },
+    */
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -65,6 +67,12 @@ module.exports = {
           },
         ],
       },
-    },    
+    },
+    {
+      resolve: "gatsby-plugin-transition-link",
+      options: {
+          layout: require.resolve(`./src/components/app-layout/AppLayout.tsx`)
+        }
+    }
   ],
 }
