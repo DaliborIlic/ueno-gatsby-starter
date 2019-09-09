@@ -4,11 +4,10 @@ exports.onCreateNode = ({ node }) => {
   fmImagesToRelative(node);
 };
 
-
 const path = require(`path`)
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
-  const workPostTemplate = path.resolve(`src/templates/workTemplate.tsx`)
+  const workPostTemplate = path.resolve('src/templates/workTemplate.tsx')
   const result = await graphql(`
     {
       allMarkdownRemark(
