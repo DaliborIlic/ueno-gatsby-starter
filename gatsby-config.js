@@ -33,8 +33,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `work-pages`,
-        path: `${__dirname}/work`,
+        name: `phone-pages`,
+        path: `${__dirname}/phone`,
       },
     },
     'gatsby-transformer-remark',
