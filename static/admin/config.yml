@@ -4,12 +4,12 @@ backend:
 media_folder: static/assets
 public_folder: assets
 collections:
-  - name: phone
-    label: Phone
-    folder: phone
+  - name: work
+    label: Work
+    folder: work
     create: true
     fields:
-      - { name: path, label: 'Path (slug) lowercase with dash instead of spaces, e.g. /phones/samsung-s8'}
+      - { name: path, label: 'Path (slug) lowercase with -, e.g. my-post'}
       - { name: title, label: Title }
       - { name: date, label: Date, widget: date }
       - { name: featuredImage, label: Featured Image, widget: image }      
