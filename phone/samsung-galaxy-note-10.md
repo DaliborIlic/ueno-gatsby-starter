@@ -12,13 +12,11 @@ Note 10+ dolazi u kombinaciji sa zakrivljenim ekranom i masivnim 6,8-inčnim ekr
 
 Prednja i zadnja staklena ploča zaštićena su Gorilla Glass 6, kao i njegov prethodnik, Note 10+ je magnet za otiske prstiju. Samsung je u Note 10+ posjeduje veću bateriju od čak 4.300 mAh.
 
- 
-
- 
+  
 
 **Specifikacije**
 
- ****
+- - -
 
 **Memorija:** 12GB RAM with 256 GB interna memorija
 
